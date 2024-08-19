@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico HTML Ramiro Martinez</title>
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Encabezado principal</h1>
+        <ul>
+            <li><a href="#estructura">Estructura</a></li>
+            <li><a href="#encabezado">Encabezado</a></li>
+            <li><a href="#divisiones">Divisiones</a></li>
+            <li><a href="#enlaces">Enlaces</a></li>
+            <li><a href="#multi">Multimedia</a></li>
+            <li><a href="#form">Formulario</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="estructura">
+            <h1>1-Estructura Basica de html</h1>
+            <p>Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de
+                metadatos
+                y
+                un titulo.</p>
+        </section>
+
+        <section id="encabezado">
+            <h1>2.Encabezados y Propiedades del texto</h1>
+            <h1><b>Este es un texto en h1 en negrita</b></h1>
+            <h2><i>Este es un texto en h2 en cursiva</i></h2>
+            <h3><u>Este es un texto en h3 en subrayado</u></h3>
+            <h4>Este es un texto en h4</h4>
+            <h5>Este es un texto en h5</h5>
+            <h6>Este es un texto en h6</h6>
+        </section>
+
+        <section id="divisiones">
+            <h2>3.Divisiones y agrupacion de contenido</h2>
+            <div>
+                <h3>Seccion 1</h3>
+                <p>Contenido de primera seccion agrupada en un div</p>
+            </div>
+            <div>
+                <h3>Seccion 2</h3>
+                <p>Contenido de segunda seccion agrupada en un div</p>
+            </div>
+        </section>
+
+        <section id="enlaces">
+            <h1>4.Enlaces y listas</h1>
+            <p>Visia nuestro <a href="https://www.google.com/"> sitio web</a> para mas informacion</p>
+            <ul>
+                <li><a href="#estructura">Ir a Estructura</a></li>
+                <li><a href="#multi">Ir a Multimedia</a></li>
+                <li><a href="#form">Ir a formulario</a></li>
+            </ul>
+
+            <p>Lista desordenada:</p>
+            <ul>
+                <li>Primer item de una lista desordenada</li>
+                <li>Segundo item de una lista desordenada</li>
+            </ul>
+
+
+            <p>Lista ordenada:</p>
+            <ol>
+                <li> Primer item de una lista ordenada</li>
+                <li> Segundo item de una lista ordenada</li>
+            </ol>
+        </section>
+
+        <section id="multi">
+            <h1>5.Elemento Multimedia</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRcoIDJPJIq2huORDA6cSBb9-EXfn1Npsrg&s"
+                alt="es una imagen" width="200px" height="200px" />
+            <video
+                src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                width="400px" height="400px" controls>
+            </video>
+
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+        </section>
+
+        <section>
+            <h1>6.Tablas</h1>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer id="form">
+        <h1>Formulario</h1>
+        <form>
+            <div>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Ingresa tu nombre">
+                <label>Email:</label>
+                <input type="email" placeholder="Ingresa tu email">
+                <label>Mensaje:</label>
+                <textarea></textarea>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>
